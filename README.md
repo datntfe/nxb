@@ -6,7 +6,11 @@ This project requires you have a global installation of [gulp](http://gulpjs.com
 # Install gulp globally
 npm install -g gulp
 ```
-
+## Install
+```
+# Install 
+Yarn install
+```
 ## Gulp commands
 **gulp serve**
 

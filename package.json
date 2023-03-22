@@ -20,7 +20,7 @@
     "gulp-uglify": "^3.0.0",
     "sass": "^1.59.3"
   },
-  "repository": "https://github.com/henrikhb/bootstrap-4-boilerplate.git",
+  "repository": "https://github.com/datntfe/nxb.git",
   "author": "datnt-fe <datnt.fe@gmail.com>",
   "license": "MIT"
 }

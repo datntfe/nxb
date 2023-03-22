@@ -10,7 +10,9 @@ const gulp = require('gulp'),
       autoprefixer = require('gulp-autoprefixer'),
       browserSync = require('browser-sync').create(),
       htmlreplace = require('gulp-html-replace'),
-      cssmin = require('gulp-cssmin');
+      cssmin = require('gulp-cssmin'),
+      imagemin = require('gulp-imagemin'),
+      pngquant = require('imagemin-pngquant');
 
 function concatScripts() {
   return gulp.src([
@@ -68,12 +70,21 @@ function renameSources() {
     .pipe(gulp.dest('dist/'));
 }
 
+function optimizeImages() {
+  return gulp.src('assets/img/**/*')
+    .pipe(imagemin({
+      progressive: true,
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest('dist/assets/img'));
+}
+
 function build() {
   return gulp.src([
     '*.html',
     '*.php',
     'favicon.ico',
-    "assets/img/**"
+    "assets/fonts/**",
   ], { base: './'})
     .pipe(gulp.dest('dist'));
 }
@@ -94,6 +105,7 @@ gulp.task('minifyCss', gulp.series('compileSass', minifyCss));
 gulp.task('watchFiles', watchFiles);
 gulp.task('clean', clean);
 gulp.task('renameSources', renameSources);
+gulp.task('optimizeImages', optimizeImages);
 gulp.task('build', gulp.series(clean, gulp.parallel('minifyScripts', 'minifyCss'), build, renameSources));
 gulp.task('serve', gulp.series('compileSass', 'concatScripts', serve));
 gulp.task('default', gulp.series('clean', 'build'));

@@ -1,1 +1,55 @@
 /* Base Styles -------------------- */
+button.btn {
+    background: #555555;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 8px 28px;
+    border: 0 solid #fff;
+    cursor: pointer;
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.title {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        color: #02010E;
+        @media (max-width: 767px) {
+            font-size: 3rem;
+        }
+}
+.description {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #343A40;
+        width: 90%;
+        max-width: 767px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 53px;
+        @media (max-width: 767px) {
+            max-width: none;
+            width: 100%;
+        }
+}

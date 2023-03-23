@@ -1,7 +1,47 @@
 //====================================
 // Global Imports
 //====================================
-
+@font-face {
+    font-family: 'Helvetica';
+    src: url('helvetica-neue-bold-italic.ttf') format('truetype'),
+         url('helvetica-neue-bold.ttf') format('truetype'),
+         url('helvetica-neue-condensed-black.ttf') format('truetype'),
+         url('helvetica-neue-condensed-bold.ttf') format('truetype'),
+         url('helvetica-neue-italic.ttf') format('truetype'),
+         url('helvetica-neue-light-italic.ttf') format('truetype'),
+         url('helvetica-neue-light.ttf') format('truetype'),
+         url('helvetica-neue-medium.ttf') format('truetype'),
+         url('helvetica-neue-regular.ttf') format('truetype'),
+         url('helvetica-neue-ultra-light-italic.ttf') format('truetype'),
+         url('helvetica-neue-ultra-light.ttf') format('truetype'),
+         url('HelveticaNeue-Bold.otf') format('opentype'),
+         url('HelveticaNeue-BoldItalic.otf') format('opentype'),
+         url('HelveticaNeue-CondensedBlack.otf') format('opentype'),
+         url('HelveticaNeue-CondensedBold.otf') format('opentype'),
+         url('HelveticaNeue-Italic.otf') format('opentype'),
+         url('HelveticaNeue-Light.otf') format('opentype'),
+         url('HelveticaNeue-LightItalic.otf') format('opentype'),
+         url('HelveticaNeue-Medium.otf') format('opentype'),
+         url('HelveticaNeue-UltraLight.otf') format('opentype'),
+         url('HelveticaNeue-UltraLightitalic.otf') format('opentype'),
+         url('HelveticaNeue.otf') format('opentype'),
+         url('helveticaneue.ttf') format('truetype'),
+         url('helveticaneuebold.ttf') format('truetype'),
+         url('helveticaneuebolditalic.ttf') format('truetype'),
+         url('helveticaneuecondensedblack.ttf') format('truetype'),
+         url('helveticaneuecondensedbold.ttf') format('truetype'),
+         url('helveticaneueitalic.ttf') format('truetype'),
+         url('helveticaneuelight.ttf') format('truetype'),
+         url('helveticaneuelightitalic.ttf') format('truetype'),
+         url('helveticaneuemedium.ttf') format('truetype'),
+         url('helveticaneueultralight.ttf') format('truetype'),
+         url('helveticaneueultralightitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
 
 // 1- Import bootstrap framework
 @import '1-frameworks/index';

@@ -1,0 +1,94 @@
+.navbar {
+    padding: 0;
+    &-row {
+        justify-content: space-between;
+        @media (max-width: 991px) {
+            flex-direction: column;
+        }
+    }
+    &-logo {
+        max-width: 167px;
+        width: 20%;
+        min-width: 114px;
+        img {
+            width: 100%;
+        }
+        @media (max-width: 991px) {
+            background: #FBF8F2;
+            padding: 8px 0;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: none;
+            margin-bottom: -1px;
+            img {
+                max-width: 115px;
+            }
+        }
+    }
+    .nav-item-pen {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 70%;
+        }
+    }
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #D4B26B;
+        padding: 0 12px;
+        border-radius: 0px 0px 18px 18px;
+        max-width: 912px;
+        margin: 0 auto;
+        @media (max-width: 991px) {
+            margin: 0;
+            width: 100%;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            position: relative;
+            a {
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: 140%;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin: 8px;
+                text-align: center;
+                &:hover {
+                    color: #574724;
+                }
+            }
+            &::after {
+                content: '';
+                height: 10px;
+                width: 0.5px;
+                background-color: #fff;
+            }
+            &:last-child {
+                &::after {
+                    content: none;
+                }
+            }
+        }
+    }
+    .container {
+        @media (max-width: 767px) {
+            padding: 0;
+        }
+    }
+}

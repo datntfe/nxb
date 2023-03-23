@@ -8548,7 +8548,7 @@ button.btn:hover {
   padding: 0 12px;
   border-radius: 0px 0px 18px 18px;
   max-width: 912px;
-  margin: 0 auto;
+  margin-left: auto;
 }
 @media (max-width: 991px) {
   .navbar-nav {

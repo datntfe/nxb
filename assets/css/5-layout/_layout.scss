@@ -202,13 +202,13 @@
             background-image: url('/assets/img/bg-want.png');
             z-index: 0;
             position: absolute;
-            width: 100%;
             width: 70%;
             max-width: 1000px;
+            aspect-ratio: 1 / 1;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
-            bottom: 0;
+            bottom: 15%;
             right: 0;
         }
         ul {

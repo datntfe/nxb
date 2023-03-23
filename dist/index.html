@@ -1,64 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="This is a boilerplate for a Bootstrap 4.1.1 project">
-    <meta name="keywords" content="HTML, CSS, JS, Sass, JavaScript, framework, bootstrap, front-end, frontend, web development">
-    <meta name="author" content="Henrik H. Boelsmand">
-    <title>Bootstrap 4 boilerplate</title>
-    <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="assets/css/main.min.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Nhà xuất bản Xây Dựng">
+  <meta name="keywords"
+    content="HTML, CSS, JS, Sass, JavaScript, framework, bootstrap, front-end, frontend, web development">
+  <title>Nhà xuất bản Xây Dựng</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
 
-  <body>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-           <a class="navbar-brand" href=".">Navbar</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-
-           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-             <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                 <a class="nav-link" href=".">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Link</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled" href="#">Disabled</a>
-               </li>
-               <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                   <a class="dropdown-item" href="#">Action</a>
-                   <a class="dropdown-item" href="#">Another action</a>
-                   <a class="dropdown-item" href="#">Something else here</a>
-                 </div>
-               </li>
-             </ul>
-             <form class="form-inline my-2 my-lg-0">
-               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-             </form>
-           </div>
-        </nav>
-
-         <div class="container">
-
-           <div style="padding-top:120px; text-align:center;">
-                <h1>Hello world!</h1>
-                <p class="lead">Remove this content or build upon it.<br>
-                For documentation and examples: <a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a><br>
-                Here is a <a href="newpage.html">link to another page</a></p>
-           </div>
-
-         </div>
-
-    <script src="assets/js/main.min.js"></script>
-  </body>
+<body>
+  <nav class="navbar fixed-top">
+    <div class="navber-row container" id="navbarsExampleDefault">
+      <div class="navbar-logo">
+        <img src="/assets/img/logo_nxb.png" alt="nhà xuất bản xây dựng" srcset="">
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href=".">Giới thiệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quy trình triển khai</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Đối tác chiến lược</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sách tiêu biểu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-item-pen" href="#"><img src="/assets/img/pencil.gif" alt="pencil" srcset=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="row hero-row">
+          <div class="col-md-7 hero-content">
+            <h1>Hợp tác xuất bản cuốn sách của riêng bạn</h1>
+            <p>Dành cho: Mọi cá nhân, tổ chức, doanh nghiệp, hiệp hội</p>
+            <button class="btn hero-content-cta">Đăng ký tư vấn </button>
+          </div>
+          <div class="col-md-5 hero-img"><img src="/assets/img/hero.png" alt="Hợp tác xuất bản cuốn sách của riêng bạn">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="container">
+        <img class="why-img" src="/assets/img/holdbook.png" alt="Xuất bản cuốn sách của riêng mình
+        Tại sao không?" srcset="">
+        <h2 class="none">Xuất bản cuốn sách của riêng mình
+          <span>Tại sao không?</span></h2>
+        <img class="why-arrow" src="/assets/img/Arrow.gif" alt="" srcset="">
+      </div>
+    </section>
+    <section class="register">
+      <div class="container">
+        <div class="register-form">
+          <div class="register-form-logo">
+            <img src="/assets/img/logo_nxb.png" alt="nhà xuất bản xây dựng" srcset="">
+          </div>
+          <p>Có rất nhiều lý do cơ bản để một người trở thành tác giả và xuất bản một cuốn sách. Và có cả những lý do là
+            yếu tố thúc đẩy mọi người mong muốn biến ý tưởng và lời nói của mình thành dạng hữu hình, có thể thấy được
+            bằng quyển sách được xuất bản. Hiểu được những yếu tố này sẽ giúp bạn đánh giá cao vai trò của bạn với tư
+            cách là tác giả, với tư cách là người sáng tạo lên quyển sách được xuất bản, và điều đó là cực kỳ quan trọng
+            khi bạn quyết tâm đầu tư thời gian, tiền bạc, công sức và trí tuệ của bạn trong một quyển sách có thể mang
+            lại hiệu quả thực sự cho chính bạn.</p>
+          <button class="btn btn-register">Đăng ký tư vấn </button>
+        </div>
+        <img class="register-imgbook" src="/assets/img/register-img.png" alt="Đăng ký tư vấn ">
+      </div>
+    </section>
+    <section class="want">
+      <div class="container">
+        <h2>Bạn có muốn xuất bản Cuốn sách cho chính mình?</h2>
+        <div class="want-wrapper">
+          <ul>
+            <li class="want-item">
+              <div class="want-wrapper-img"><img src="/assets/img/want-1.png"
+                  alt="Thực hiện SỨ MỆNH đem giá trị kiến thức đến cho xã hội"></div>
+              <h3>Thực hiện <span>SỨ MỆNH</span> đem giá trị kiến thức đến cho xã hội</h3>
+            </li>
+            <li class="want-item">
+              <div class="want-wrapper-img"><img src="/assets/img/want-2.png"
+                  alt="Niềm ĐAM MÊ với tâm huyết của mình ấp ủ trong nhiều năm"></div>
+              <h3>Niềm <span>ĐAM MÊ</span> với tâm huyết của mình ấp ủ trong nhiều năm</h3>
+            </li>
+            <li class="want-item">
+              <div class="want-wrapper-img"><img src="/assets/img/want-3.png"
+                  alt="Tăng sự NHẬN DIỆN của bản thân đến với thị trường người đọc"></div>
+              <h3>Tăng sự <span>NHẬN DIỆN</span> của bản thân đến với thị trường người đọc</h3>
+            </li>
+            <li class="want-item">
+              <div class="want-wrapper-img"><img src="/assets/img/want-4.png" alt="Gia tăng THU NHẬP từ việc viết sách">
+              </div>
+              <h3>Gia tăng <span>THU NHẬP</span> từ việc viết sách</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="profile">
+      <div class="container">
+        <h2 class="title">Nhà xuất bản xây dựng</h2>
+        <p class="description">Nhà xuất bản Xây dựng là một đơn vị trực thuộc Bộ Xây dựng được thành lập từ năm 1977
+          hoạt động theo đúng tôn chỉ, mục đích được quy định trong Giấy phép thành lập do cơ quan thẩm quyền cấp và
+          theo quy định pháp luật. Hiện nay, NXB Xây dựng có một hệ thống chu trình sản xuất khép kín từ khâu chế bản,
+          biên tập, in ấn các xuất bản phẩm giấy và điện tử.</p>
+        <ul class="profile-list">
+          <li><strong>40+</strong><span>Năm hoạt động</span></li>
+          <li><strong>2000+</strong><span>Sách giấy</span></li>
+          <li><strong>3000+</strong><span>Sách điện tử</span></li>
+          <li><strong>600+</strong><span>Tác giả</span></li>
+          <li><strong>200+</strong><span>Đối tác</span></li>
+        </ul>
+      </div>
+      <img class="bottom-line" src="/assets/img/bottom-line.png" alt="">
+    </section>
+    <section class="process">
+      <div class="container">
+        <h2 class="title">quy trình chuyên nghiệp</h2>
+        <p class="description">Chúng tôi triển khai xây dựng và hoàn thiện đề tài với quy trình chuyên nghiệp, đầy đủ và
+          khoa học nhất</p>
+      </div>
+      <div class="process-row">
+        <div class="process-row-item">
+          <img src="/assets/img/process-1.png" alt="Phê duyệt đề tài" srcset="">
+        </div>
+        <div class="process-row-arr">
+          <img src="/assets/img/arr-process.png" alt="Arrow 1" srcset="">
+        </div>
+        <div class="process-row-item">
+          <img src="/assets/img/process-2.png" alt="Tổ chức bản thảo" srcset="">
+        </div>
+        <div class="process-row-arr">
+          <img src="/assets/img/arr-process.png" alt="Arrow 2" srcset="">
+        </div>
+        <div class="process-row-item">
+          <img src="/assets/img/process-3.png" alt="Đề tài" srcset="">
+        </div>
+      </div>
+      <button class="btn btn-touch">Vuốt để xem tiếp <img src="/assets/img/arrow-vector.svg" alt="" srcset=""></button>
+    </section>
+    <section class="partners">
+      <img class="bottom-line" src="/assets/img/bottom-line.png" alt="">
+      <div class="container">
+        <h2 class="title">ĐỐI TÁC ĐỒNG HÀNH – LIÊN KẾT XUẤT BẢN</h2>
+        <p class="description">Chúng tôi là đối tác tin cậy của nhiều Doanh nghiệp/Tổ chức uy tín như ASHUI, NXB Hồng
+          Đức, NXB Đại học Kinh tế quốc dân, Đại học Xây dựng Hà Nội, Đại học Kiến trúc Hà Nội,...</p>
+        <div class="wrapper-carousel">
+          <div class="carousel" id="carousel-1">
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00001.png" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00002.png" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00003.png" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00004.png" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00005.png" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/partners/partner00006.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="books">
+      <div class="container">
+        <h2 class="title">Những tựa sách nổi bật</h2>
+        <p class="description">Với bề dày hơn 40 năm kinh nghiệm, Nhà xuất bản Xây dựng đã đồng hành cùng hàng ngàn dự
+          án sản xuất nội dung cho các cá nhân, tổ chức, doanh nghiệp... Chúng tôi tự tin mang tới chất lượng dịch vụ
+          tốt nhất tới các bạn!</p>
+        <ul class="books-list">
+          <li><img src="/assets/img/books/book00001.png" alt="Những tựa sách nổi bật" srcset=""></li>
+          <li><img src="/assets/img/books/book00002.png" alt="Những tựa sách nổi bật" srcset=""></li>
+          <li><img src="/assets/img/books/book00003.png" alt="Những tựa sách nổi bật" srcset=""></li>
+          <li><img src="/assets/img/books/book00004.png" alt="Những tựa sách nổi bật" srcset=""></li>
+          <li><img src="/assets/img/books/book00005.png" alt="Những tựa sách nổi bật" srcset=""></li>
+          <li><img src="/assets/img/books/book00006.png" alt="Những tựa sách nổi bật" srcset=""></li>
+        </ul>
+      </div>
+      <img class="bottom-line" src="/assets/img/bottom-line.png" alt="">
+    </section>
+    <section class="delegate">
+      <img class="bottom-line" src="/assets/img/bottom-line.png" alt="">
+      <div class="container">
+        <h2 class="title">Tác giả tiêu biểu</h2>
+        <div class="wrapper-carousel">
+          <div class="carousel" id="carousel-2">
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/delegates/delegate00002.jpg" alt="">
+              </div>
+              <p>PGS.TS. Tôn Thất Đại</p>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/delegates/delegate00006.jpg" alt="">
+              </div>
+              <p>PGS.TS. Bùi Mạnh Hùng</p>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/delegates/delegate00004.jpg" alt="">
+              </div>
+              <p>PGS.TS. Bùi Quốc Bảo</p>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/delegates/delegate00003.jpg" alt="">
+              </div>
+              <p>TS.KTS. Trần Minh Tùng</p>
+            </div>
+            <div class="carousel-item">
+              <div class="wrap-img">
+                <img src="/assets/img/delegates/delegate00005.jpg" alt="">
+              </div>
+              <p>Ths.KTS Ngô Ngọc Lê</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="topic">
+      <div class="container">
+        <h2 class="title">Đăng ký đề tài</h2>
+        <p class="description">Với bề dày kinh nghiệm cùng dịch vụ đa dạng, Nhà xuất bản Xây Dựng luôn đồng hành cùng các bạn để đưa ra sản phẩm tốt nhất.</p>
+        <ul class="topic-list">
+          <li>
+            <div class="topic-cover">
+              <img src="/assets/img/superJumbo.gif" alt="Đăng ký đề tài" srcset="">
+            </div>
+            <p>Cá nhân, doanh nghiệp muốn xuất bản ấn phẩm cho bản thân và doanh nghiệp</p>
+          </li>
+          <li>
+            <div class="topic-cover">
+              <img src="/assets/img/development-activity.gif" alt="Đăng ký đề tài" srcset="">
+            </div>
+            <p>Tư vấn cung cấp sách và tài liệu đào tạo cho thư viện</p>
+          </li>
+          <li>
+            <div class="topic-cover"><img src="/assets/img/calculatormoney.gif" alt="Đăng ký đề tài" srcset=""></div>
+            <p>Dự kiến giá khi xuất bản phẩm</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="sub">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>“The only important thing in a book is the meaning that it has for you.”</h2>
+            <p>– W. Somerset Maugham</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="sub-form">
+              <div class="sub-title">Đăng ký đề tài</div>
+              <input type="text" placeholder="Họ và tên của bạn">
+              <input type="text" placeholder="Email">
+              <input type="text" placeholder="Số điện thoại liên hệ">
+              <textarea placeholder="Bạn muốn tư vấn dịch vụ nào của chúng tôi?"></textarea>
+              <button class="sub-btn">Gửi thông tin</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="name">Nhà xuất bản Xây Dựng - Bộ Xây dựng</div>
+      <ul>
+        <li><a href="https://goo.gl/maps/fFsZECBTUN4U3sYZ8"><span><img src="/assets/img/icon/icon00004.png" alt=""></span>37 Lê Đại Hành, Hai Bà Trưng, TP. Hà Nội</a></li>
+        <li><a href="tel:+84327 888 669"><span><img src="/assets/img/icon/icon00003.png" alt=""></span>HotLine: 0327 888 669</a></li>
+        <li><a href="fb.com/nxbxaydung"><span><img src="/assets/img/icon/icon00002.png" alt=""></span>fanpage: fb.com/nxbxaydung</a></li>
+        <li><a href="mailto:banhang@nxbxaydung.com.vn"><span><img src="/assets/img/icon/icon00001.png" alt=""></span>banhang@nxbxaydung.com.vn</a></li>
+      </ul>
+    </div>
+    <div class="bottom-ft">
+      Copyright © 2019 - NHÀ XUẤT BẢN XÂY DỰNG - BỘ XÂY DỰNG. All rights reserved.
+    </div>
+  </footer>
+  <script src="assets/js/main.min.js"></script>
+</body>
 
 </html>

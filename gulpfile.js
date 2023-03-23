@@ -16,8 +16,9 @@ const gulp = require('gulp'),
 
 function concatScripts() {
   return gulp.src([
-    'assets/js/vendor/jquery-3.3.1.slim.min.js',
+    'assets/js/vendor/jquery-2.2.0.min.js',
     'assets/js/vendor/popper.min.js',
+    'assets/js/vendor/slick.js',
     'assets/js/vendor/bootstrap.min.js',
     'assets/js/functions.js'
   ])

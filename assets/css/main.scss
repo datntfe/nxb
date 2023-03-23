@@ -3,7 +3,10 @@
 //====================================
 @font-face {
     font-family: 'Helvetica';
-    src: url('/assets/fonts/Helvetica/helvetica-neue-bold-italic.ttf') format('truetype'),
+    src: 
+    url('/assets/fonts/Helvetica/HelveticaNeue.otf') format('opentype'),
+    url('/assets/fonts/Helvetica/helveticaneue.ttf') format('truetype'),
+    url('/assets/fonts/Helvetica/helvetica-neue-bold-italic.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helvetica-neue-bold.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helvetica-neue-condensed-black.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helvetica-neue-condensed-bold.ttf') format('truetype'),
@@ -24,8 +27,6 @@
          url('/assets/fonts/Helvetica/HelveticaNeue-Medium.otf') format('opentype'),
          url('/assets/fonts/Helvetica/HelveticaNeue-UltraLight.otf') format('opentype'),
          url('/assets/fonts/Helvetica/HelveticaNeue-UltraLightitalic.otf') format('opentype'),
-         url('/assets/fonts/Helvetica/HelveticaNeue.otf') format('opentype'),
-         url('/assets/fonts/Helvetica/helveticaneue.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helveticaneuebold.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helveticaneuebolditalic.ttf') format('truetype'),
          url('/assets/fonts/Helvetica/helveticaneuecondensedblack.ttf') format('truetype'),

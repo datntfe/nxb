@@ -320,12 +320,19 @@
             margin-left: 64px;
             margin-right: 64px;
         }
+        @media (max-width: 768px) {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
         &::-webkit-scrollbar {
             display: none;
           }
         &-item {
             height: 490px;
             display: inline-block;
+            @media (max-width: 768px) {
+                height: 400px;
+            }
             img{
                 height: 100%;
             }
@@ -335,6 +342,9 @@
             margin-top: 30px;
             margin-right: 16px;
             display: inline-block;
+            @media (max-width: 768px) {
+                height: 300px;
+            }
             img{
                 height: 100%;
             }

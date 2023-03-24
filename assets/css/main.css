@@ -8215,6 +8215,12 @@ button.btn:hover {
     margin-right: 64px;
   }
 }
+@media (max-width: 768px) {
+  .process-row {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 .process-row::-webkit-scrollbar {
   display: none;
 }

@@ -7852,11 +7852,11 @@ button.btn:hover {
 }
 .wrapper-carousel .slick-arrow.slick-prev {
   left: 0;
-  background: url("/assets/img/arr-left.png") 0 0/100% no-repeat;
+  background: url("../img/arr-left.png") 0 0/100% no-repeat;
 }
 .wrapper-carousel .slick-arrow.slick-next {
   right: 0;
-  background: url("/assets/img/arr-right.png") 0 0/100% no-repeat;
+  background: url("../img/arr-right.png") 0 0/100% no-repeat;
 }
 .wrapper-carousel .slick-slide {
   margin: 0 3rem;

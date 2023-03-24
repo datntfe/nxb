@@ -22,12 +22,12 @@
     }
     .slick-arrow.slick-prev {
         left: 0;
-        background: url("/assets/img/arr-left.png") 0
+        background: url("../img/arr-left.png") 0
           0 / 100% no-repeat;
       }
       .slick-arrow.slick-next {
         right: 0;
-        background: url("/assets/img/arr-right.png") 0 0 / 100% no-repeat;
+        background: url("../img/arr-right.png") 0 0 / 100% no-repeat;
       }
   /* the slides */
   .slick-slide {

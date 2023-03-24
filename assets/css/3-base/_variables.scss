@@ -21,6 +21,9 @@ html {
     @media (max-width: 479px) {
         font-size: 8px;
     }
+    @media (max-width: 375px) {
+        font-size: 7px;
+    }
 }
 body {
     overflow-x: hidden;

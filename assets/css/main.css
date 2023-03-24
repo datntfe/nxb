@@ -7739,6 +7739,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 16px;
 }
 @media (max-width: 991px) {
@@ -7785,6 +7786,10 @@ button.btn {
 }
 button.btn:hover {
   opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .title {
@@ -7861,6 +7866,11 @@ button.btn:hover {
 .wrapper-carousel .slick-slide {
   margin: 0 3rem;
 }
+@media (max-width: 767px) {
+  .wrapper-carousel .slick-slide {
+    margin: 0 1.5rem;
+  }
+}
 .wrapper-carousel .carousel-item .wrap-img {
   border-radius: 50%;
   overflow: hidden;
@@ -7876,6 +7886,11 @@ button.btn:hover {
   color: #6C757D;
   display: block;
   margin-top: 16px;
+}
+@media (max-width: 767px) {
+  .wrapper-carousel .carousel-item p {
+    font-size: 13px;
+  }
 }
 .wrapper-carousel .carousel-item img {
   width: 100%;
@@ -7908,6 +7923,11 @@ button.btn:hover {
   display: block;
   margin-bottom: 12px;
 }
+@media (max-width: 767px) {
+  .hero-content h1 {
+    text-align: center;
+  }
+}
 .hero-content p {
   font-family: "Helvetica";
   font-style: normal;
@@ -7917,8 +7937,19 @@ button.btn:hover {
   color: #AA8B47;
   margin-bottom: 54px;
 }
+@media (max-width: 767px) {
+  .hero-content p {
+    text-align: center;
+  }
+}
 .hero-content-cta {
   margin-left: 70px;
+}
+@media (min-width: 768px) {
+  .hero-content-cta {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
 }
 .hero-content-cta::after {
   content: "";
@@ -8025,6 +8056,13 @@ button.btn:hover {
   margin-bottom: 37px;
   max-width: 480px;
 }
+@media (max-width: 767px) {
+  .want h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 62px;
+  }
+}
 .want-item {
   max-width: 263px;
   position: relative;
@@ -8104,8 +8142,13 @@ button.btn:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 15%;
+  top: 20%;
   right: 0;
+}
+@media (max-width: 767px) {
+  .want-wrapper::after {
+    content: none;
+  }
 }
 .want-wrapper ul {
   list-style: none;
@@ -8447,10 +8490,16 @@ button.btn:hover {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 125%;
   text-transform: uppercase;
   color: #2B2B2B;
+  max-width: 478px;
+}
+@media (max-width: 767px) {
+  .sub h2 {
+    font-size: 4.5rem;
+  }
 }
 .sub p {
   font-family: "Oswald";
@@ -8460,6 +8509,11 @@ button.btn:hover {
   line-height: 125%;
   text-transform: uppercase;
   color: #2B2B2B;
+}
+@media (max-width: 767px) {
+  .sub p {
+    font-size: 2.5rem;
+  }
 }
 .sub-form {
   padding: 36px;
@@ -8519,6 +8573,7 @@ button.btn:hover {
 
 .navbar {
   padding: 0;
+  background: linear-gradient(180deg, #FBF8F2 0%, rgba(251, 248, 242, 0.5) 100%);
 }
 .navbar-row {
   justify-content: space-between;
@@ -8559,6 +8614,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: none !important;
 }
 .navbar .nav-item-pen img {
   width: 70%;
@@ -8590,7 +8646,8 @@ button.btn:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
-  line-height: 140%;
+  max-height: 3rem;
+  line-height: 1.5rem;
   display: flex;
   align-items: center;
   text-transform: uppercase;

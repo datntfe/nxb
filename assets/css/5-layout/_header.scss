@@ -1,5 +1,6 @@
 .navbar {
     padding: 0;
+    background: linear-gradient(180deg, #FBF8F2 0%, rgba(251, 248, 242, 0.5) 100%);
     &-row {
         justify-content: space-between;
         @media (max-width: 991px) {
@@ -35,6 +36,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        max-height: none !important;
         img {
             width: 70%;
         }
@@ -62,7 +64,8 @@
                 font-style: normal;
                 font-weight: 700;
                 font-size: 1rem;
-                line-height: 140%;
+                max-height: 3rem;
+                line-height: 1.5rem;
                 display: flex;
                 align-items: center;
                 text-transform: uppercase;

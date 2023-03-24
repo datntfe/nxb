@@ -32,6 +32,9 @@
   /* the slides */
   .slick-slide {
     margin: 0 3rem;
+    @media (max-width: 767px) {
+        margin: 0 1.5rem;
+    }
 }
 
 
@@ -51,6 +54,9 @@
             color: #6C757D;
             display: block;
             margin-top: 16px;
+            @media (max-width: 767px) {
+                font-size: 13px;
+            }
         }
         img {
             width: 100%;

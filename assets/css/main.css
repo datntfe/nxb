@@ -8062,6 +8062,11 @@ button.btn:hover {
   bottom: -180px;
   left: 0;
 }
+@media (max-width: 767px) {
+  .want-item:after {
+    content: none;
+  }
+}
 .want-item:nth-of-type(even) {
   margin-left: auto;
 }
@@ -8228,6 +8233,11 @@ button.btn:hover {
   height: 490px;
   display: inline-block;
 }
+@media (max-width: 768px) {
+  .process-row-item {
+    height: 400px;
+  }
+}
 .process-row-item img {
   height: 100%;
 }
@@ -8236,6 +8246,11 @@ button.btn:hover {
   margin-top: 30px;
   margin-right: 16px;
   display: inline-block;
+}
+@media (max-width: 768px) {
+  .process-row-arr {
+    height: 300px;
+  }
 }
 .process-row-arr img {
   height: 100%;
@@ -8476,11 +8491,15 @@ button.btn:hover {
   color: #242C42;
   margin-bottom: 24px;
 }
+@media (max-width: 768px) {
+  .sub-title {
+    font-size: 20px;
+  }
+}
 .sub-btn {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
   line-height: 26px;
   display: flex;
   align-items: center;
@@ -8488,7 +8507,6 @@ button.btn:hover {
   background: #C80000;
   border-radius: 5px;
   width: 100%;
-  padding: 12px;
   color: #fff;
   text-align: center;
   border-width: 0;

@@ -107,6 +107,6 @@ gulp.task('watchFiles', watchFiles);
 gulp.task('clean', clean);
 gulp.task('renameSources', renameSources);
 gulp.task('optimizeImages', optimizeImages);
-gulp.task('build', gulp.series(clean, gulp.parallel('minifyScripts', 'minifyCss'), build, renameSources));
+gulp.task('build', gulp.series(clean, gulp.parallel('minifyScripts', 'minifyCss'), optimizeImages, build, renameSources));
 gulp.task('serve', gulp.series('compileSass', 'concatScripts', serve));
 gulp.task('default', gulp.series('clean', 'build'));

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Helvetica";
-  src: url("/assets/fonts/Helvetica/HelveticaNeue.otf") format("opentype"), url("/assets/fonts/Helvetica/helveticaneue.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-bold-italic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-bold.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-condensed-black.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-condensed-bold.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-italic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-light-italic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-light.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-medium.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-regular.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-ultra-light-italic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helvetica-neue-ultra-light.ttf") format("truetype"), url("/assets/fonts/Helvetica/HelveticaNeue-Bold.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-BoldItalic.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-CondensedBlack.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-CondensedBold.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-Italic.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-Light.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-LightItalic.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-Medium.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-UltraLight.otf") format("opentype"), url("/assets/fonts/Helvetica/HelveticaNeue-UltraLightitalic.otf") format("opentype"), url("/assets/fonts/Helvetica/helveticaneuebold.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuebolditalic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuecondensedblack.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuecondensedbold.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneueitalic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuelight.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuelightitalic.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneuemedium.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneueultralight.ttf") format("truetype"), url("/assets/fonts/Helvetica/helveticaneueultralightitalic.ttf") format("truetype");
+  src: url("../fonts/Helvetica/HelveticaNeue.otf") format("opentype"), url("../fonts/Helvetica/helveticaneue.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-bold-italic.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-bold.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-condensed-black.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-condensed-bold.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-italic.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-light-italic.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-light.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-medium.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-regular.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-ultra-light-italic.ttf") format("truetype"), url("../fonts/Helvetica/helvetica-neue-ultra-light.ttf") format("truetype"), url("../fonts/Helvetica/HelveticaNeue-Bold.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-BoldItalic.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-CondensedBlack.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-CondensedBold.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-Italic.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-Light.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-LightItalic.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-Medium.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-UltraLight.otf") format("opentype"), url("../fonts/Helvetica/HelveticaNeue-UltraLightitalic.otf") format("opentype"), url("../fonts/Helvetica/helveticaneuebold.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuebolditalic.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuecondensedblack.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuecondensedbold.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneueitalic.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuelight.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuelightitalic.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneuemedium.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneueultralight.ttf") format("truetype"), url("../fonts/Helvetica/helveticaneueultralightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -7922,7 +7922,7 @@ button.btn:hover {
 }
 .hero-content-cta::after {
   content: "";
-  background-image: url("/assets/img/Arrow.gif");
+  background-image: url("../img/Arrow.gif");
   background-size: cover;
   width: 64px;
   height: 64px;
@@ -7935,7 +7935,7 @@ button.btn:hover {
 }
 
 .why {
-  background-image: url("/assets/img/background-why.jpg");
+  background-image: url("../img/background-why.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8052,7 +8052,7 @@ button.btn:hover {
 }
 .want-item:after {
   content: " ";
-  background-image: url("/assets/img/arr-1.png");
+  background-image: url("../img/arr-1.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -8090,7 +8090,7 @@ button.btn:hover {
 }
 .want-wrapper::after {
   content: "";
-  background-image: url("/assets/img/bg-want.png");
+  background-image: url("../img/bg-want.png");
   z-index: 0;
   position: absolute;
   width: 70%;
@@ -8115,7 +8115,7 @@ button.btn:hover {
 }
 
 .profile {
-  background-image: url("/assets/img/profile.jpg");
+  background-image: url("../img/profile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8594,7 +8594,7 @@ button.btn:hover {
 
 footer {
   padding-top: 40px;
-  background-image: url("/assets/img/bg-footer.jpg");
+  background-image: url("../img/bg-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;

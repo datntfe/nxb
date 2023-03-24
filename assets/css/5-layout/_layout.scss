@@ -34,7 +34,7 @@
             margin-left: 70px;
             &::after {
                 content: '';
-                background-image: url('/assets/img/Arrow.gif');
+                background-image: url('../img/Arrow.gif');
                 background-size: cover;
                 width: 64px;
                 height: 64px;
@@ -51,7 +51,7 @@
     }
 }
 .why {
-    background-image: url('/assets/img/background-why.jpg');
+    background-image: url('../img/background-why.jpg');
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -161,7 +161,7 @@
         }
         &:after {
             content: " ";
-            background-image: url('/assets/img/arr-1.png');
+            background-image: url('../img/arr-1.png');
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
@@ -199,7 +199,7 @@
         margin-left: auto;
         &::after {
             content: '';
-            background-image: url('/assets/img/bg-want.png');
+            background-image: url('../img/bg-want.png');
             z-index: 0;
             position: absolute;
             width: 70%;
@@ -225,7 +225,7 @@
     }
 }
 .profile {
-    background-image: url('/assets/img/profile.jpg');
+    background-image: url('../img/profile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

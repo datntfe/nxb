@@ -8663,6 +8663,7 @@ a:hover {
   height: 10px;
   width: 0.5px;
   background-color: #fff;
+  margin-left: 8px;
 }
 .navbar-nav li:last-child::after {
   content: none;

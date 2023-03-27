@@ -7754,10 +7754,10 @@ html {
 }
 @media (max-width: 479px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 374px) {
   html {
     font-size: 7px;
   }
@@ -7917,6 +7917,12 @@ a:hover {
 .hero-content {
   position: relative;
 }
+@media (max-width: 767px) {
+  .hero-content {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
 .hero-content h1 {
   font-family: "Helvetica";
   font-style: normal;
@@ -7948,10 +7954,11 @@ a:hover {
   }
 }
 .hero-content-cta {
-  margin-left: 70px;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .hero-content-cta {
+    margin-left: 70px;
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
@@ -7965,6 +7972,14 @@ a:hover {
   position: absolute;
   bottom: 16px;
   left: 0;
+}
+@media (max-width: 767px) {
+  .hero-content-cta::after {
+    bottom: 6px;
+    left: 10%;
+    width: 54px;
+    height: 54px;
+  }
 }
 .hero-img img {
   width: 100%;
@@ -8048,6 +8063,7 @@ a:hover {
   background: #FBF8F2;
   padding: 8rem 0;
   position: relative;
+  overflow: hidden;
 }
 .want h2 {
   font-family: "Helvetica";
@@ -8135,20 +8151,22 @@ a:hover {
   width: 100%;
   max-width: 620px;
   margin-left: auto;
+  overflow: hidden;
 }
 .want-wrapper::after {
   content: "";
   background-image: url("../img/bg-want.png");
   z-index: 0;
   position: absolute;
-  width: 70%;
   max-width: 1000px;
   aspect-ratio: 1/1;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   top: 20%;
-  right: 0;
+  right: -20%;
+  overflow: hidden;
+  height: 75%;
 }
 @media (max-width: 767px) {
   .want-wrapper::after {
@@ -8491,6 +8509,16 @@ a:hover {
     gap: 24px;
   }
 }
+@media (max-width: 767px) {
+  .sub h2, .sub p {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .sub h2 {
+    display: block;
+    margin-bottom: 16px;
+  }
+}
 .sub h2 {
   font-family: "Oswald";
   font-style: normal;
@@ -8571,9 +8599,17 @@ a:hover {
   border-width: 0;
   justify-content: center;
   cursor: pointer;
+  margin-top: 16px;
 }
 .sub-btn:hover {
   opacity: 0.8;
+}
+@media (max-width: 767px) {
+  .sub-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+  }
 }
 
 .navbar {

@@ -10,6 +10,10 @@
     }
     &-content {
         position: relative;
+        @media (max-width: 767px) {
+            padding-right: 24px;
+            padding-left: 24px;
+        }
         h1 {
             font-family: 'Helvetica';
             font-style: normal;
@@ -37,9 +41,9 @@
             }
         }
         &-cta {
-            margin-left: 70px;
-
+            margin: 0 auto;
             @media (min-width: 768px) {
+                margin-left: 70px;
                 padding-top: 12px !important;
                 padding-bottom: 12px !important;
             }
@@ -52,6 +56,13 @@
                 position: absolute;
                 bottom: 16px;
                 left: 0;
+                @media (max-width: 767px) {
+                    bottom: 6px;
+                    left: 10%;
+                    width: 54px;
+                    height: 54px;
+                }
+
             }
         }
     }
@@ -135,6 +146,7 @@
     background: #FBF8F2;
     padding: 8rem 0;
     position: relative;
+    overflow: hidden;
     
     h2 {
         font-family: 'Helvetica';
@@ -216,19 +228,21 @@
         width: 100%;
         max-width: 620px;
         margin-left: auto;
+        overflow: hidden;
         &::after {
             content: '';
             background-image: url('../img/bg-want.png');
             z-index: 0;
             position: absolute;
-            width: 70%;
             max-width: 1000px;
-            aspect-ratio: 1 / 1;
-            background-size: contain;
+            aspect-ratio: 1/1;
+            background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: left;
             top: 20%;
-            right: 0;
+            right: -20%;
+            overflow: hidden;
+            height: 75%;
             @media (max-width: 767px) {
                 content: none;
             }
@@ -545,6 +559,16 @@
             gap: 24px;
         }
     }
+    @media (max-width: 767px) {
+        h2, p {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        h2 {
+            display: block;
+            margin-bottom: 16px;
+        }
+    }
     h2 {
         font-family: 'Oswald';
         font-style: normal;
@@ -617,8 +641,14 @@
         border-width: 0;
         justify-content: center;
         cursor: pointer;
+        margin-top: 16px;
         &:hover {
             opacity: 0.8;
+        }
+        @media (max-width: 767px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 16px;
         }
     }
 }

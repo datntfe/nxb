@@ -8567,6 +8567,11 @@ a:hover {
   width: 100%;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .sub-form input, .sub-form textarea {
+    font-size: 16px;
+  }
+}
 .sub-title {
   font-family: "Helvetica";
   font-style: normal;
@@ -8600,14 +8605,14 @@ a:hover {
   justify-content: center;
   cursor: pointer;
   margin-top: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .sub-btn:hover {
   opacity: 0.8;
 }
 @media (max-width: 767px) {
   .sub-btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
     font-size: 16px;
   }
 }
